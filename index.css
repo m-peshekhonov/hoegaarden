@@ -1,0 +1,36 @@
+.page
+{
+    font: 16px Arial,Helvetica,sans-serif;
+
+    padding: 150px 50px;
+}
+
+.stripe
+{
+    position: relative;
+
+    width: 560px;
+    height: 50px;
+
+    border-radius: 4px;
+    margin: auto;
+}
+
+.stripe__icon
+{
+    position: absolute;
+    left: 0;
+
+    background: rgba(255,255,255,.4);
+
+    padding: 17px;
+
+    border-radius: 4px 0 0 4px;
+}
+
+.stripe__text
+{
+    padding: 15px 0 0 75px;
+    color: rgba(255,255,255,.9);
+    text-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
